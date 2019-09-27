@@ -19,6 +19,6 @@ def reduce(array, starting_val = nil)
   end
     
     while i < array.length
-      yeild(sum)
+      sum = yeild()
     end 
 end
