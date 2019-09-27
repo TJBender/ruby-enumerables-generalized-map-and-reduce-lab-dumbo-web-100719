@@ -1,10 +1,10 @@
 def map(array, block)
   new_array = []
   i = 0
-  while i < array.length
-  map(array){block}
-  i+=1
-  end
+    while i < array.length
+    map(array){block}
+    i+=1
+    end
   new_array
 end
 
