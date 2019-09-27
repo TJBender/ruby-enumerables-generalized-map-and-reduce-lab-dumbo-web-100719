@@ -13,6 +13,6 @@ def reduce(array, starting_val = nil)
   if starting_val
     num1 = starting_val
   else
-    num1 = 0
+    num1 = array[0]
   end
 end
