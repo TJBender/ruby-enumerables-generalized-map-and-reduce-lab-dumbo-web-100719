@@ -8,7 +8,7 @@ def map(array)
   new_array
 end
 
-def reduce(array, starting_val = 0)
+def reduce(array, starting_val = nil)
   i = 0
   while i < array.length
     if true
