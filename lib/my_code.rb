@@ -5,6 +5,7 @@ def map(array, block)
   map(array){block}
   i+=1
   end
+  new_array
 end
 
 def reduce(array, starting_val = 0)
