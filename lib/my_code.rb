@@ -9,12 +9,9 @@ def map(array)
 end
 
 def reduce(array, starting_val = nil)
-  i = 0
-  while i < array.length
-    if true
-      starting_val += 1
-    end
-  i+= 1
+  
+  if starting_val
+    num1 = starting_val
+  else
   end
-starting_val
 end
